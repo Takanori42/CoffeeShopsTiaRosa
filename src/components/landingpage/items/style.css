@@ -1,0 +1,35 @@
+.items {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 20px;
+    justify-content: space-around;
+    background-color: #F8FCFF;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon-conteiner {
+    background-color: #FBFBFB;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.335);
+}
+
+.icon {
+    width: 90px;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter";
+    color: #894E3F;
+    font-weight: bold;
+    font-size: 18px;
+
+}
