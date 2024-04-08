@@ -6,6 +6,34 @@
     background-color: #F8FCFF;
 }
 
+@media (max-width: 600px) {
+    .items {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-text {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .item {
     display: flex;
     flex-direction: column;
