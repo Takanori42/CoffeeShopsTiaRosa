@@ -4,6 +4,7 @@
     padding: 0px 20px;
     justify-content: space-around;
     background-color: #F8FCFF;
+    margin-bottom: 60px;
 }
 
 @media (max-width: 600px) {

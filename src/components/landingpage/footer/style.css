@@ -1,0 +1,88 @@
+.footer {
+    background-color: #894E3F;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 20px;
+    justify-content: space-around;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.twitter {
+    width: 64px;
+}
+
+.whatsapp {
+    width: 64px;
+}
+
+.intagram {
+    width: 64px;
+}
+
+.facebook {
+    width: 64px;
+}
+
+.contacts {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.icon-phone {
+    display: flex;
+    flex-direction: column;
+    width: 65px;
+    height: 78px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter";
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.icon-place {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 78px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter";
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    width: 380px;
+}

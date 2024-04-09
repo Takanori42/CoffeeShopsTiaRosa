@@ -6,29 +6,30 @@ export default function Footer() {
         <footer className="footer">
             <div className="social-container">
                 <div>
-                    <img></img>
+                    <img className="twitter" src="twitter.png"></img>
                 </div>
                 <div>
-                    <img></img>
+                    <img className="whatsapp" src="whatsapp.png"></img>
                 </div>
                 <div>
-                    <img></img>
+                    <img className="instagram" src="instagram.png"></img>
                 </div>
                 <div>
-                    <img></img>
+                    <img className="facebook" src="facebook.png"></img>
                 </div>
             </div>
             <div className="contacts">
                 <div className="phone-container">
-                    <img className="icon-phone"></img>
+                    <img className="icon-phone" src="phone.png"></img>
                     <h3 className="phone">61 3333-0000</h3>
                 </div>
-            </div>
-            <div className="address-container">
-                <img className="icon-place"></img>
-                <h3 className="71020631 - QE 11 Área Especial C - Guará I - Brasília/DF"></h3>
-            </div>
 
+                <div className="address-container">
+                    <img className="icon-place" src="place.png"></img>
+                    <h3 className="address">71020631 - QE 11 Área Especial C -
+                        Guará I - Brasília/DF</h3>
+                </div>
+            </div>
         </footer>
     )
 }
