@@ -6,14 +6,20 @@
     background-color: #F8FCFF;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .presentation {
         flex-direction: column;
         display: flex;
+        align-items: center;
+    }
+
+    .welcome-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .welcome-title {
-        flex-direction: row;
+        flex-direction: column;
         display: flex;
         justify-content: center;
     }
@@ -22,12 +28,23 @@
         width: auto;
     }
 
-    .welcome-container {
+    .welcome {
         display: flex;
         flex-direction: column;
     }
 
-    .welcome {
+    .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .division {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome-container {
         display: flex;
         flex-direction: column;
     }
@@ -67,6 +84,11 @@
     font-size: 18px;
 }
 
+
 .img {
     width: 500px;
+}
+
+.welcome-container {
+    padding: 20px 20px 20px 20px;
 }

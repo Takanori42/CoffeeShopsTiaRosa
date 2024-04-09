@@ -6,6 +6,49 @@
     background-size: cover;
 }
 
+@media(max-width: 800px) {
+    .header {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .t2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phrase {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phrase-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
