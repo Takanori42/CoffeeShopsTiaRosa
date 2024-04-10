@@ -11,10 +11,10 @@ export default function Header() {
                 </div>
                 <nav className="nav">
                     <ul className="menu">
-                        <li>Cardapio</li>
-                        <li>Produtos</li>
-                        <li>Fale Conosco</li>
-                        <li>Sobre nós</li>
+                        <li><a href="#">Cardápio</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Sobre nós</a></li>
                     </ul>
                 </nav>
             </div>
