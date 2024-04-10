@@ -7,18 +7,17 @@
     margin-bottom: 60px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .container-places {
         flex-direction: column;
         display: flex;
-        align-items: center;
     }
 
     .img-container {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        height: auto;
+
     }
 
     .text-place {
@@ -45,14 +44,6 @@
     justify-content: center;
 }
 
-.img1 {
-    width: 490px;
-}
-
-.img2 {
-    width: 490px;
-}
-
-.img3 {
+.img {
     width: 490px;
 }

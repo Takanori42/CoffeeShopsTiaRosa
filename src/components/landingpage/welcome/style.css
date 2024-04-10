@@ -6,7 +6,7 @@
     background-color: #F8FCFF;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .presentation {
         flex-direction: column;
         display: flex;
@@ -18,33 +18,7 @@
         flex-direction: column;
     }
 
-    .welcome-title {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-
-    .welcome-text {
-        width: auto;
-    }
-
-    .welcome {
-        display: flex;
-        flex-direction: column;
-    }
-
     .img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .division {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .welcome-container {
         display: flex;
         flex-direction: column;
     }

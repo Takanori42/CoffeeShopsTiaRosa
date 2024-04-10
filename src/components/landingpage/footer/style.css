@@ -6,6 +6,36 @@
     justify-content: space-around;
 }
 
+@media (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .social-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 .social-container {
     display: flex;
     flex-direction: row;
@@ -13,19 +43,7 @@
     gap: 30px;
 }
 
-.twitter {
-    width: 64px;
-}
-
-.whatsapp {
-    width: 64px;
-}
-
-.intagram {
-    width: 64px;
-}
-
-.facebook {
+.social-icon {
     width: 64px;
 }
 
@@ -48,8 +66,8 @@
 .icon-phone {
     display: flex;
     flex-direction: column;
-    width: 65px;
-    height: 78px;
+    width: 55px;
+    height: 55px;
 }
 
 .phone {
@@ -72,8 +90,8 @@
 .icon-place {
     display: flex;
     flex-direction: column;
-    width: 60px;
-    height: 78px;
+    width: 40px;
+    height: 55px;
 }
 
 .address {
@@ -84,5 +102,5 @@
     color: white;
     font-weight: normal;
     font-size: 18px;
-    width: 380px;
+    width: 500px;
 }

@@ -6,7 +6,7 @@
     background-color: #F8FCFF;
 }
 
-@media (max-width: 473px) {
+@media (max-width: 800px) {
     .items {
         flex-direction: column;
         display: flex;

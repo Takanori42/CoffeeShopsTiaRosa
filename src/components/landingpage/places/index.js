@@ -9,13 +9,13 @@ export default function Places() {
             </div>
             <div className="img-container">
                 <div>
-                    <img className="img1" src="coffee1.png"></img>
+                    <img className="img" src="coffee1.png"></img>
                 </div>
                 <div>
-                    <img className="img2" src="coffee2.png"></img>
+                    <img className="img" src="coffee2.png"></img>
                 </div>
                 <div>
-                    <img className="img3" src="coffee3.png"></img>
+                    <img className="img" src="coffee3.png"></img>
                 </div>
             </div>
         </section>

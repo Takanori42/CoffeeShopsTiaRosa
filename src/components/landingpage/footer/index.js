@@ -6,16 +6,16 @@ export default function Footer() {
         <footer className="footer">
             <div className="social-container">
                 <div>
-                    <img className="twitter" src="twitter.png"></img>
+                    <img className="social-icon" src="twitter.png"></img>
                 </div>
                 <div>
-                    <img className="whatsapp" src="whatsapp.png"></img>
+                    <img className="social-icon" src="whatsapp.png"></img>
                 </div>
                 <div>
-                    <img className="instagram" src="instagram.png"></img>
+                    <img className="social-icon" src="instagram.png"></img>
                 </div>
                 <div>
-                    <img className="facebook" src="facebook.png"></img>
+                    <img className="social-icon" src="facebook.png"></img>
                 </div>
             </div>
             <div className="contacts">
