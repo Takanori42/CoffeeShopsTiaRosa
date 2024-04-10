@@ -92,7 +92,24 @@
     gap: 20px;
     font-family: "Inter";
     font-size: 1.3em;
+    text-decoration: none;
 }
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: white;
+    text-decoration: none;
+}
+
 
 .phrase-container {
     margin-top: 170px;

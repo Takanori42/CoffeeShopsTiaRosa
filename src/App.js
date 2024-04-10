@@ -1,20 +1,36 @@
-import './App.css';
-import Header from './components/landingpage/header';
-import Items from './components/landingpage/items';
-import Welcome from './components/landingpage/welcome';
-import Places from './components/landingpage/places';
-import Footer from './components/landingpage/footer';
+import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Home from "./pages/home";
+import Menu from "./pages/menu";
 
-function App() {
+export default function App() {
   return (
-    <main>
-      <Header></Header>
-      <Items></Items>
-      <Welcome></Welcome>
-      <Places></Places>
-      <Footer></Footer>
-    </main>
+    <div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="*" element={<NoMatch />} />
+        </Route>
+      </Routes>
+    </div>
   );
 }
 
-export default App;
+function Layout() {
+  return (
+    <div>
+      <Outlet />
+    </div>
+  );
+}
+function NoMatch() {
+  return (
+    <div>
+      <h2>Nothing to see here!</h2>
+      <p>
+        <Link to="/">Go to the home page</Link>
+      </p>
+    </div>
+  );
+}
+
