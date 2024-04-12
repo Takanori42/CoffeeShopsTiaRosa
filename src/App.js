@@ -1,3 +1,4 @@
+import "./App.css"
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Home from "./pages/home";
 import Menu from "./pages/menu";

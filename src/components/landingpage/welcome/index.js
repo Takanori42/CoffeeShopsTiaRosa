@@ -3,11 +3,11 @@ import "./style.css";
 
 export default function Welcome() {
     return (
-        <section className="presentation">
+        <section id="sobre-nos" className="presentation">
             <div className="welcome">
                 <div className="welcome-container">
                     <div className="welcome-title">
-                        <h1>Bem-vindo!</h1>
+                        <h1>Sobre nós</h1>
                     </div>
                     <hr className="division"></hr>
                     <div className="welcome-text">

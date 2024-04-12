@@ -15,8 +15,10 @@
 
     .img-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         height: auto;
+        align-items: center;
+        gap: 15px;
 
     }
 
@@ -39,11 +41,11 @@
 .img-container {
     display: flex;
     flex-direction: row;
-    gap: 35px;
     margin-top: 10px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .img {
-    width: 490px;
+    width: 320px;
+    height: auto;
 }

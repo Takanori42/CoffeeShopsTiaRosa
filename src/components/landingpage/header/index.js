@@ -13,8 +13,8 @@ export default function Header() {
                 <nav className="nav">
                     <ul className="menu">
                         <li><Link to="/menu" className="link">Cardápio</Link></li>
-                        <li><a>Fale Conosco</a></li>
-                        <li><Link to="/SobreNos" className="link">Sobre nós</Link></li>
+                        <li><a href="#fale-conosco" className="link">Fale Conosco</a></li>
+                        <li><a href="#sobre-nos" className="link">Sobre nós</a></li>
                     </ul>
                 </nav>
             </div>

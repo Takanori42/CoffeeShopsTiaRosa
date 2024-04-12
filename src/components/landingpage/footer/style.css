@@ -21,17 +21,24 @@
 
     .contacts {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 0 !important;
     }
 
     .address-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row !important;
+        align-items: center;
     }
 
     .phone-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .address {
+        width: 200px !important;
     }
 
 }
@@ -60,14 +67,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
 }
 
 .icon-phone {
     display: flex;
     flex-direction: column;
-    width: 55px;
-    height: 55px;
+    width: 24px;
+    height: 24px;
 }
 
 .phone {
@@ -84,20 +92,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
 }
 
 .icon-place {
     display: flex;
     flex-direction: column;
-    width: 40px;
-    height: 55px;
+    width: 20px;
+    height: 24px;
 }
 
 .address {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-family: "Inter";
     color: white;
     font-weight: normal;

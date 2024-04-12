@@ -18,7 +18,7 @@ export default function Footer() {
                     <img className="social-icon" src="facebook.png"></img>
                 </div>
             </div>
-            <div className="contacts">
+            <div id="fale-conosco" className="contacts">
                 <div className="phone-container">
                     <img className="icon-phone" src="phone.png"></img>
                     <h3 className="phone">61 3333-0000</h3>
