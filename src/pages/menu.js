@@ -4,7 +4,7 @@ import Favorites from '../components/menu/favorites';
 import Products from '../components/menu/products';
 import Footer from '../components/menu/footer';
 
-export default function Home() {
+export default function Menu() {
     return (
         <main>
             <Header></Header>

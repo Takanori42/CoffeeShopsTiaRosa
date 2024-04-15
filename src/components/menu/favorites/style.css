@@ -1,0 +1,67 @@
+.favorite-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite-title{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.favorite-title h1{
+  font-family: "Inter";
+  font-size: 15px;
+}
+.divider{
+  width: 2%;
+  margin: 0 auto;
+}
+.divider hr{
+  border: 1.5px solid red;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.favorites-products{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px
+}
+
+.product{
+  background-color: #FBFBFB;
+  font-family: "Inter";
+  font-size: 10px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100px;
+  height: 80px;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.335);
+  gap: 5px;
+
+}
+.product-title-container{
+  display: flex;
+  justify-content: center;
+}
+.product-title{
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+}
+.stars{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.stars img{
+  width: 10px;
+  height: 10px;
+} 
