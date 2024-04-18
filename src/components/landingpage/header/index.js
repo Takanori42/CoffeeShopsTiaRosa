@@ -12,7 +12,7 @@ export default function Header() {
                 </div>
                 <nav className="nav">
                     <ul className="menu">
-                        <li><Link to="/menu" className="link">Cardápio</Link></li>
+                        <li><Link to="menu" className="link">Cardápio</Link></li>
                         <li><a href="#fale-conosco" className="link">Fale Conosco</a></li>
                         <li><a href="#sobre-nos" className="link">Sobre nós</a></li>
                     </ul>
